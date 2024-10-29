@@ -1,0 +1,50 @@
+img {
+    @media screen and (min-width: 1008px) {
+        max-width: 600px;
+        height: auto;
+    }
+}
+
+.carte {
+    @media screen and (min-width: 1008px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        padding: 2em;
+        gap: 3em;
+    }
+}
+
+.logowcs {
+    @media screen and (min-width: 1008px) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        padding: 2em;
+        gap: 3em;
+    }
+}
+
+.dataserver {
+    @media screen and (min-width: 1008px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.2rem;
+        padding: 2em;
+        gap: 3em;
+    }
+}
+
+#dataserv {
+    max-height: 500px;
+}
+
+footer {
+    justify-content: space-around;
+}
